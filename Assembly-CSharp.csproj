@@ -46,8 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Enemy.cs" />
-     <Compile Include="Assets\Waypoints.cs" />
+     <Compile Include="Assets\Code\BuildManager.cs" />
+     <Compile Include="Assets\Code\Bullet.cs" />
+     <Compile Include="Assets\Code\CameraController.cs" />
+     <Compile Include="Assets\Code\Enemy.cs" />
+     <Compile Include="Assets\Code\Node.cs" />
+     <Compile Include="Assets\Code\Shop.cs" />
+     <Compile Include="Assets\Code\Turret.cs" />
+     <Compile Include="Assets\Code\TurretBluePrint.cs" />
+     <Compile Include="Assets\Code\WaveSpawner.cs" />
+     <Compile Include="Assets\Code\Waypoints.cs" />
+     <Compile Include="Assets\PlayerStats.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
