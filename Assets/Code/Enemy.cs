@@ -3,7 +3,7 @@
 public class Enemy : MonoBehaviour {
 
 	public float speed = 10f;
-    public int health = 100;
+    public float health = 100;
 	private Transform target;
 	private int wavePointIndex = 0;
     public int value = 50;
@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
         health -= (amount / 2); 
 
