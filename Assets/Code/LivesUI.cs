@@ -7,6 +7,8 @@ public class LivesUI : MonoBehaviour {
 	
 	void Update () 
     {
-        livesText.text = PlayerStats.Lives + " LIVES";
+		if (!GameManager.GameIsOver) {
+			livesText.text = PlayerStats.Lives + " LIVES";
+		}
 	}
 }
