@@ -51,6 +51,7 @@
      <Compile Include="Assets\Code\CameraController.cs" />
      <Compile Include="Assets\Code\Enemy.cs" />
      <Compile Include="Assets\Code\GameManager.cs" />
+     <Compile Include="Assets\Code\GameOver.cs" />
      <Compile Include="Assets\Code\LivesUI.cs" />
      <Compile Include="Assets\Code\MoneyUI.cs" />
      <Compile Include="Assets\Code\Node.cs" />
@@ -60,7 +61,7 @@
      <Compile Include="Assets\Code\TurretBluePrint.cs" />
      <Compile Include="Assets\Code\WaveSpawner.cs" />
      <Compile Include="Assets\Code\Waypoints.cs" />
-     <Compile Include="Assets\GameOver.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
