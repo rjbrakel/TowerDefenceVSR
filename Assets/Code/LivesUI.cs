@@ -9,6 +9,8 @@ public class LivesUI : MonoBehaviour {
     {
 		if (!GameManager.GameIsOver) {
 			livesText.text = PlayerStats.Lives + " LIVES";
+		} else {
+			livesText.text = "0 LIVES";
 		}
 	}
 }
